@@ -22,3 +22,6 @@ webapp/.idea
 webapp/.env
 webapp/.env.*
 webapp/!.env.example
+
+
+webservice/node_modules

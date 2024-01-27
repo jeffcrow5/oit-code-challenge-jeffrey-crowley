@@ -8,7 +8,7 @@
         <h2>{{ movie.title }}</h2>
         <img :src="movie.poster" alt="Movie Poster">
         <p>{{ movie.popularity }}</p>
-        <ul>
+        <ul> <!-- TODO: Remove recommendation section -->
           <li v-for="recommendation in movie.recommendations" :key="recommendation.id">
             {{ recommendation.title }}
           </li>
