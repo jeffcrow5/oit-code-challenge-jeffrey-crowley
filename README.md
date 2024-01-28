@@ -29,6 +29,7 @@ ACCESS_TOKEN=<your TMDb API access token OR API key>
 ### Notes/Future Improvements
 - The current frontend is very basic and could be improved with more features and styling. I would add a header (and logo, if it existed) to the top of the page. It is also not responsive, so it does not look good on mobile devices. It also pushes the search bar to the top of the page when displaying results, which is not ideal.
 - I was sloppy with my git commits and ended up committing my .env file. I later removed it and added it to the .gitignore, but it still exists in the git history. If I had more time, I would go back and remove it from the git history.
+- I would like to run the backend server in a Docker container tha is available at a static IP address. I just used localhost because of time constraints.
 - The current enter process for the search is a little clunky. I would like to wrap the search bar and button in a form instead of using the onKeyUp event listener.
 - I didn't utilize CSS as much as I should have. Due to time constraints, I used Tailwind CSS's utility classes instead of writing my own CSS. I would like to go back and write my own CSS for the application or at least figure out a better method than using a bunch of utility classes for styling. 
 - General code cleanup and refactoring. I would like to add more comments to the code and make it more readable.
